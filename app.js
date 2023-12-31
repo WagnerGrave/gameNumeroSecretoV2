@@ -1,6 +1,5 @@
 // utilizando funções 
 
-// > Função com parâmetro
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100; 
 let numeroSecreto = gerarNumero();
@@ -17,8 +16,6 @@ function exibirMensagemInicial() {
 
 }
 exibirMensagemInicial();
-
-// > Função sem parâmetro
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
@@ -39,8 +36,6 @@ function verificarChute() {
         limparCampo();
     }
 }
-
-// > Função sem parâmetro e com retorno.
 
 function gerarNumero() {
    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
